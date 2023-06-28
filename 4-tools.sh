@@ -13,7 +13,6 @@ PKGS=(
         'bat'
         'exa'
         'man-db'
-        'pass'
         'ranger'
 	'ripgrep'
 	'rtorrent'
@@ -39,21 +38,25 @@ PKGS=(
 	'firefox'
 	'networkmanager'
 	'openssh'
-	'tigervnc'
 
 	# Coding
 	'git'
 	'lazygit'
 	'neovim'
 	'docker'
-	'kubectl'
-	'minikube'
+	'docker-compose'
 
 	# Tooling
-	'libreoffice-fresh'
-	'freecad'
 	'godot'
 	'obsidian'
+	'kubectl'
+	'terraform'
+	'aws-cli'
+
+	# Languages
+	'jdk-openjdk'	# Java
+	'maven'		# Java - Maven
+	'go'		# Golang
 )
 
 for PKG in "${PKGS[@]}"; do
